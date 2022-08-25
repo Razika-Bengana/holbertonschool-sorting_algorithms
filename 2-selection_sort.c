@@ -1,5 +1,3 @@
-// C program that implement a selection sort
-
 #include "sort.h"
 /**
  * swap - swap two numbers
