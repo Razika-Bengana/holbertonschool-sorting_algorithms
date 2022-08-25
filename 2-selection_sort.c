@@ -37,9 +37,6 @@ void selection_sort(int *array, size_t size)
 				min_idx = b;
 		}
 
-		/*  Swap the found minimum element with the first element,
-		    and print the array */
-
 		if (min_idx != a)
 		{
 			swap(&array[min_idx], &array[a]);
