@@ -65,7 +65,7 @@ void quickSort(int array[], int low, int high, size_t size)
 	{
 		pivot = partition(array, low, high, size);
 		quickSort(array, low, pivot - 1, size);
-		quickSort(array, low + 1, high, size);
+		quickSort(array, pivot + 1, high, size);
 	}
 }
 
